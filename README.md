@@ -40,7 +40,7 @@ FEISHU_APP_SECRET=xxxxx
 
 ### 坑2：飞书用户ID格式不匹配
 
-**现象**：消息收到了，但回复被拦截：`Unauthorized user: g8c98291 (用户967150) on feishu`
+**现象**：消息收到了，但回复被拦截：`Unauthorized user: g8c98291 (用户名) on feishu`
 
 **原因**：飞书有三种用户ID：
 - `user_id`（租户级，如 `g8c98291`）— **Hermes 优先用这个**
@@ -160,7 +160,7 @@ feishu:
 
 | 项目 | OpenClaw（小助理） | Hermes（海马士） |
 |------|-------------------|-----------------|
-| 飞书应用 | cli_a9264fb4c3f8dcce | cli_aa89b8fef5bddcb6 |
+| 飞书应用 | cli_xxxxx (应用A) | cli_yyyyy (应用B) |
 | 端口 | 18789 | 18790 |
 | 运行方式 | Node.js | Python |
 
